@@ -66,3 +66,38 @@ Result
 'llm_token_flow_explorer_by_louis_spires.html'![llm_token_flow_preview](https://github.com/user-attachments/assets/30578a31-d8ad-47be-a439-3cbd5b3def48)
 ![llm_token_flow_preview](https://github.com/user-attachments/assets/e15ecddd-c81f-4d1e-9436-901e43b724a1)
 ![83c9c00e-bef9-425f-8382-95141eb31bd1](https://github.com/user-attachments/assets/c4cbde99-b754-476e-85a6-14807f513938)
+ What You Can Do:
+Enter a sentence to see how it's tokenized.
+
+Choose an attention head:
+
+Head 1 – Positional (focuses on nearby words)
+
+Head 2 – Syntactic (shows grammar-based relationships like noun→verb)
+
+Head 3 – Semantic (emphasizes meaning-based links like adj→noun)
+
+Visualize attention flows between tokens.
+
+Hover over lines to see the attention weights.
+
+See the simulated next-token prediction.
+
+🧩 How It Works
+Built using HTML + p5.js.
+
+Attention weights are simulated using basic POS tagging and rules for intuitive learning.
+
+Entirely client-side — just open the .html file in a browser!
+
+🚀 Get Started
+Download llm_token_flow_explorer_by_louis_spires.html
+
+Open it in any browser.
+
+Start exploring how LLMs “think” about language.
+
+📜 License
+MIT — free to use, remix, and share.
+Credit appreciated: Louis Spires & ChatGPT
+
